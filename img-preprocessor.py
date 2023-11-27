@@ -1,7 +1,7 @@
 import os
 import cv2
 
-DATA_DIR = './celeba-dataset'
+DATA_DIR = './dataset'
 
 # results folder
 RESULTS_DIR = './preprocessing/results'
