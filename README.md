@@ -15,6 +15,10 @@ When using a different dataset (different image names or a different number of i
 `gan.ipynb` can be tested cell by cell with each result being seen at once.
 The epochs are considerably faster if the program uses GPU rather than CPU on your device, so check the requirements for using GPU in the comments if necessary.
 
+`results_cpu` contains results with training on CPU, 7 epochs, each 1h 15min, in total around 8 hours training.
+
+`results_gpu` contains results with training on GPU, 60 epochs, each 5 min, in total around 5 hours training.
+
 # Requirements
 
 - Required Visual Studio (2019 for CUDA 11, 2022 for CUDA 12) - (if you want to run on GPU)
