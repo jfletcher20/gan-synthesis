@@ -17,7 +17,7 @@ The epochs are considerably faster if the program uses GPU rather than CPU on yo
 
 # Requirements
 
-- Required Visual Studio (2019 for CUDA 11, 2022 for CUDA 12)
+- Required Visual Studio (2019 for CUDA 11, 2022 for CUDA 12) - (if you want to run on GPU)
 
 - Required VS Code
 
@@ -28,15 +28,15 @@ The epochs are considerably faster if the program uses GPU rather than CPU on yo
 - Required Python libraries - ipykernel, torch, matplotlib and others required by the script
 
 
-HOW TO RUN IPYNB SCRIPT ON GPU (on Windows):
+How to run .ipynb script on GPU (on Windows):
 
-Step 1. Have Nvidia GPU
+- Step 1. Have Nvidia GPU
 
-Step 2. Add to PATH: C:\Program Files (x86)\Microsoft Visual Studio\<VERSION>\Community\VC\Auxiliary\Build\vcvars64.bat
+- Step 2. Add to PATH: C:\Program Files (x86)\Microsoft Visual Studio\<VERSION>\Community\VC\Auxiliary\Build\vcvars64.bat
 
-Step 3. Install Nvidia CUDA (v. 11 if Visual Studio 2019, or v. 12 if Visual Studio 2022)
+- Step 3. Install Nvidia CUDA (v. 11 if Visual Studio 2019, or v. 12 if Visual Studio 2022)
 
-Step 4. Run .ipynb script in VS Code
+- Step 4. Run .ipynb script in VS Code
 
 
 Otherwise, just use CPU (not recommended)
