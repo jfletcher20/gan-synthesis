@@ -23,7 +23,7 @@ The epochs are considerably faster if the program uses GPU rather than CPU on yo
 
 - Required VS Code Jupyter extensions
 
-- Required Python
+- Required Python (recommended v. 3.11.6., since 3.12. doesn't support torch installation)
 
 - Required Python libraries - ipykernel, torch, matplotlib and others required by the script
 
