@@ -27,6 +27,8 @@ The epochs are considerably faster if the program uses GPU rather than CPU on yo
 
 - Required Python libraries - ipykernel, torch, matplotlib and others required by the script
 
+- Note: torch installation might fail with `pip`, in which case Anaconda installation is recommended (install PyTorch in Anaconda Prompt via command pasted from official PyTorch website)
+
 
 How to run .ipynb script on GPU (on Windows):
 
