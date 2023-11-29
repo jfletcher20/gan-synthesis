@@ -19,6 +19,8 @@ The epochs are considerably faster if the program uses GPU rather than CPU on yo
 
 `results_gpu` contains results with training on GPU, 60 epochs, each 5 min, in total around 5 hours training.
 
+Generator and discriminator models are added (`G.pth` and `D.pth` respectively). These models were trained on about 70 epochs. In case you want to continue training on these models instead of creating them from scratch, you can run the last code cell in `gan.ipynb` file, which loads the models and saves them after additional training.
+
 # Requirements
 
 - Required Visual Studio (2019 for CUDA 11, 2022 for CUDA 12) - (if you want to run on GPU)
